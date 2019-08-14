@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
           length: _tabs.length,
           child: Scaffold(
             appBar: AppBar(
-              title: const Text('Is is Flutter web?'),
+              title: const Text('Is it Flutter web?'),
               bottom: TabBar(
                 tabs: _tabs,
               ),
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
               children: const [
                 DemoWidget(),
                 WebView(
-                  initialUrl: 'https://kevmoo.github.io/is_it_flutter_web/',
+                  initialUrl: 'https://timsneath.github.io/flutter_flip_view/',
                   javascriptMode: JavascriptMode.unrestricted,
                 ),
               ],

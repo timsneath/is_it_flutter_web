@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
-import 'demo_widget.dart';
+// import 'demo_widget.dart';
+import 'master.dart';
 
 void main() => runApp(
       MaterialApp(
         home: Scaffold(
-          body: const Directionality(
+          body: Directionality(
             textDirection: TextDirection.ltr,
-            child: DemoWidget(),
+            child: FlipViewMasterWidget(),
           ),
         ),
       ),

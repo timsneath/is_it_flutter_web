@@ -1,6 +1,6 @@
-import 'package:demo_widget/demo_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'package:demo_widget/master.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
               ),
             ),
             body: TabBarView(
-              children: const [
-                DemoWidget(),
-                WebView(
+              children: [
+                FlipViewMasterWidget(),
+                const WebView(
                   initialUrl: 'https://timsneath.github.io/flutter_flip_view/',
                   javascriptMode: JavascriptMode.unrestricted,
                 ),

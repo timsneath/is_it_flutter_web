@@ -27,6 +27,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_flip_view:
+    dependency: transitive
+    description:
+      name: flutter_flip_view
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   meta:
     dependency: transitive
     description:

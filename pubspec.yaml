@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   webview_flutter: ^0.3.11+4
+  flutter_flip_view: 1.0.1
 
 
 flutter:

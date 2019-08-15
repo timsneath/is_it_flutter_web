@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_flip_view/flutter_flip_view.dart';
 
-void main() => runApp(MaterialApp(home: RotatingCard()));
+void main() => runApp(MaterialApp(
+      home: RotatingCard(),
+      debugShowCheckedModeBanner: false,
+    ));
 
 class RotatingCard extends StatefulWidget {
   @override

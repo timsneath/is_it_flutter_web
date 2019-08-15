@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       );
 
   final _tabs = const <Tab>[
-    Tab(text: 'Native'),
+    Tab(text: 'Mobile'),
     Tab(text: 'Web'),
   ];
 }

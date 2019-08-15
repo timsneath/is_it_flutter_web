@@ -1,0 +1,17 @@
+name: app
+description: A new Flutter project.
+
+version: 1.1.0
+
+environment:
+  sdk: ">=2.4.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^0.3.11+4
+
+
+flutter:
+
+  uses-material-design: true
